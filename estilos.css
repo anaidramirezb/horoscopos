@@ -15,6 +15,10 @@ margin:0;
 font-size: var(--normal);
 font-family: 'Open Sans', sans-serif;
 }
+h2{
+  padding: 10px;
+  font-weight: normal;
+}
 
 nav{
   display: flex;
