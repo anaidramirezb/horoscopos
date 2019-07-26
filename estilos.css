@@ -1,0 +1,34 @@
+:root{
+  --orange--color: #FF8355;
+  --white--color:#F5E4D8;
+  --black--color:#382B28;
+  /* Espaciado */
+  --space:10px;
+  /* Tipografía */
+  --normal:15px;
+  /* Box Shadow */
+  --box: 0px 0 2px 1px #e6e5e9;
+}
+html,body{
+padding:var(--space);
+margin:0;
+font-size: var(--normal);
+font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+  display: flex;
+  background-color: var(--orange--color) ;
+  padding: var(--space);
+  color: var(--white--color);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_section{
+  padding: 5%;
+  text-align: center;
+}
+.img_content{
+  text-align: center;
+}
