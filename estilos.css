@@ -35,4 +35,13 @@ nav{
 }
 .img_content{
   text-align: center;
+  padding: 10px;
+}
+.cartas{
+  text-align: center;
+  display: flex;
+  padding-left:  20%;
+}
+.hilos{
+  text-align: center;
 }
