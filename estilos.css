@@ -2,12 +2,9 @@
   --orange--color: #FF8355;
   --white--color:#F5E4D8;
   --black--color:#382B28;
-  /* Espaciado */
-  --space:10px;
-  /* Tipografía */
-  --normal:15px;
-  /* Box Shadow */
-  --box: 0px 0 2px 1px #e6e5e9;
+  --space:10px;  /* Espaciado */
+  --normal:15px; /* Tipografía */
+  --box: 0px 0 2px 1px #e6e5e9;   /* Box Shadow */
 }
 html,body{
 padding:var(--space);
@@ -18,6 +15,10 @@ font-family: 'Open Sans', sans-serif;
 h2{
   padding: 10px;
   font-weight: normal;
+}
+h3{
+  color: var(--black--color);
+  padding-top: 5%;
 }
 
 nav{
@@ -51,7 +52,7 @@ footer{
   text-align: center;
   display: flex;
   padding-left:  20%;
-  padding-bottom: 10%;
+  padding-top: -20%;
 }
 .hilos{
   text-align: center;
