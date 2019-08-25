@@ -27,9 +27,9 @@
   addEventClick(acuario, "acuario");
   addEventClick(capricornio, "capricornio");
   addEventClick(sagitario, "sagitario");
-  addEventClick(escorpio, "escorpio");
+  addEventClick(escorpio, "escorpion");
   addEventClick(libra, "libra");
-  addEventClick(gemini, "gemini");
+  addEventClick(gemini, "geminis");
   addEventClick(piscis, "piscis");
   function addEventClick($element, sign) {
     $element.addEventListener("click", () => {
@@ -41,7 +41,10 @@
       let numero = tarots[sign].numero;
       let salud = tarots[sign].salud;
 
-      swal(`${nombre}`, `Amor: ${amor}\nDinero: ${dinero}\nSalud: ${salud}\nFechas del Signo: ${fechaSigno}\nColor: ${color}\nNumero de la suerte: ${numero}\n `);
+      swal(
+        `${nombre}`,
+        `Amor: ${amor}\nDinero: ${dinero}\nSalud: ${salud}\nFechas del Signo: ${fechaSigno}\nColor: ${color}\nNumero de la suerte: ${numero}\n `
+      );
     });
   }
 })();
