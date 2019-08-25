@@ -16,7 +16,6 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
-  margin: 5px;
 }
 
 .wrapper {
@@ -34,6 +33,13 @@ h3 {
   padding-top: 5%;
 }
 
+.img_content img {
+  height: auto;
+  width: auto;
+  width: 100%;
+  max-width: 209px;
+}
+
 .nav-container {
   display: flex;
   flex-flow: row wrap;
@@ -43,6 +49,7 @@ h3 {
   padding: 15px;
   color: var(--white--color);
   flex: 0 0 100%;
+  margin: 5px;
 }
 
 .footer-container {
@@ -56,36 +63,45 @@ h3 {
   text-align: center;
   flex-shrink: 0;
   flex: 0 0 100%;
+  margin: 5px;
 }
 
 .main_section {
   padding: 5%;
-  font-size: 20px;
   text-align: center;
 }
-.img_content {
-  padding: 10px;
-}
-
-[class*="img_content"] {
-  flex: 0 0 50%;
-}
-
 .cartas {
   margin: 0 auto;
-  width: 100%;
+  width: 97%;
   max-width: 1200px;
+  float: none;
 }
 
 .hilos {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  flex: 0 1 auto;
+}
+
+.img_content {
+  flex: 0 0 98%;
+  margin: 0 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+}
+
+/* Mobile Landscape Screen Sizes */
+@media only screen and (min-width: 480px) {
+  .img_content {
+    flex: 0 0 46%;
+  }
 }
 
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
   .img_content {
-    flex: 0 0 25%;
+    flex: 0 0 21%;
   }
 }
