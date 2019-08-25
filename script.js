@@ -40,9 +40,8 @@
       let fechaSigno = tarots[sign].fechaSigno;
       let numero = tarots[sign].numero;
       let salud = tarots[sign].salud;
-      alert(
-        `Amor: ${amor}\nDinero: ${dinero}\nSalud: ${salud}\nFechas del Signo: ${fechaSigno}\nColor: ${color}\nNumero de la suerte: ${numero}\n `
-      );
+
+      swal(`${nombre}`, `Amor: ${amor}\nDinero: ${dinero}\nSalud: ${salud}\nFechas del Signo: ${fechaSigno}\nColor: ${color}\nNumero de la suerte: ${numero}\n `);
     });
   }
 })();
