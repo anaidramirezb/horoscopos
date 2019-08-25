@@ -1,65 +1,93 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Horoscopos de Anaid- Sazú</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Horoscopos de Anaid- Sazú </title>
-  <link rel="stylesheet" href="estilos.css">
-  <link rel="stylesheet" href="grid.css">
-</head>
-
-<body>
-  <!-- Aqui empieza el navbar -->
-  <nav>
-    Horoscopos
-  </nav>
-  <!-- Aqui termina el navbar :) -->
-  <!-- Aquí inician las mentiras, digo, el <header> -->
-  <div class='main_section'>
-    <h1> Horóscopos de Anaid </h1>
-    <div class="img_content">
-      <img src="Image1.png" alt="">
+  <body>
+    <div class="wrapper">
+      <!-- Aqui empieza el navbar -->
+      <div class="nav-container">
+        <div class="nav">
+          Horoscopos
+        </div>
+      </div>
+      <!-- Aqui termina el navbar :) -->
+      <!-- Aquí inician las mentiras, digo, el <header> -->
+      <div class="main_section">
+        <h1>Horóscopos de Anaid</h1>
+        <div class="img_content">
+          <img src="Image1.png" alt="" />
+        </div>
+        <br />
+        <h2>
+          Descubre lo que los astros tienen que decir de tu vida, <br />
+          aunque quizá a nadie le interesa
+        </h2>
+        <br />
+        <h3>Elige tu signo zodiacal:</h3>
+      </div>
+      <!--Aquí se termina el header  -->
+      <!-- Aquí inician las cartas de los signos -->
+      <div class="cartas">
+        <div class="hilos">
+          <div id="aries" class="img_content">
+            <img src="aries.png" alt="" />
+          </div>
+          <div id="tauro" class="img_content">
+            <img src="tauro.png" alt="" />
+          </div>
+          <div id="gemini" class="img_content">
+            <img src="gemini.png" alt="" />
+          </div>
+          <div id="cancer" class="img_content">
+            <img src="cancer.png" alt="" />
+          </div>
+        </div>
+        <!-- Segundo hilo de cartas -->
+        <div class="hilos">
+          <div id="escorpio" class="img_content">
+            <img src="escorpio.png" alt="" />
+          </div>
+          <div id="piscis" class="img_content">
+            <img src="piscis.png" alt="" />
+          </div>
+          <div id="acuario" class="img_content">
+            <img src="acuario.png" alt="" />
+          </div>
+          <div id="capricornio" class="img_content">
+            <img src="capricornio.png" alt="" />
+          </div>
+        </div>
+        <!-- Tercer hilo de cartas -->
+        <div class="hilos">
+          <div id="sagitario" class="img_content">
+            <img src="sagitario.png" alt="" />
+          </div>
+          <div id="leo" class="img_content">
+            <img src="leo.png" alt="" />
+          </div>
+          <div id="virgo" class="img_content">
+            <img src="virgo.png" alt="" />
+          </div>
+          <div id="libra" class="img_content">
+            <img src="libra.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- Aquí terminan las cartas de los signos -->
+      <div class="footer-container">
+        <div class="footer">
+          Anaid Ramirez Inc ® <br />
+          Derechos Reservados
+        </div>
+      </div>
     </div>
-    <br>
-    <h2> Descubre lo que los astros tienen que decir de tu vida, <br> aunque quizá a nadie le interesa </h2>
-    <br>
-    <h3> Elige tu signo zodiacal:</h3>
-  </div>
-  <!--Aquí se termina el header  -->
-  <!-- Aquí inician las cartas de los signos -->
-  <div class="cartas">
-    <!-- Primer hilo de cartas -->
-    <div class="hilos">
-      <div id="aries" class="img_content col-4"> <img src="aries.png" alt=""></div>
-      <div id="tauro" class="img_content col-4"><img src="tauro.png" alt=""></div>
-      <div id="gemini" class="img_content col-4"><img src="gemini.png" alt=""></div>
-    </div>
-    <!-- Segundo hilo de cartas -->
-    <div class="hilos">
-      <div id="cancer" class="img_content col-4"><img src="cancer.png" alt=""></div>
-      <div id="escorpio" class="img_content col-4"><img src="escorpio.png" alt=""></div>
-      <div id="piscis" class="img_content col-4"><img src="piscis.png" alt=""></div>
-    </div>
-    <!-- Tercer hilo de cartas -->
-    <div class="hilos">
-      <div id="acuario" class="img_content col-3"><img src="acuario.png" alt=""></div>
-      <div id="capricornio" class="img_content col-3"><img src="capricornio.png" alt=""></div>
-      <div id="sagitario" class="img_content col-3"><img src="sagitario.png" alt=""></div>
-    </div>
-
-    <div class="hilos">
-      <div id="leo" class="img_content col-4"><img src="leo.png" alt=""></div>
-      <div id="virgo" class="img_content col-3"><img src="virgo.png" alt=""></div>
-      <div id="libra" class="img_content col-3"><img src="libra.png" alt=""></div>
-    </div>
-  </div>
-  <!-- Aqui terminan los Horoscopos -->
-  <script src="script.js"> </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
-
-</body>
-<footer>
-  Anaid Ramirez Inc ® <br> Derechos Reservados
-</footer>
-
+    <!-- Aqui terminan los Horoscopos -->
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+  </body>
 </html>
