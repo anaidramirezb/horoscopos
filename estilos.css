@@ -43,18 +43,19 @@ h3 {
 .nav-container {
   display: flex;
   flex-flow: row wrap;
+  margin: 10px;
 }
 .nav {
   background-color: var(--orange--color);
   padding: 15px;
   color: var(--white--color);
-  flex: 0 0 98%;
-  margin: 5px;
+  flex: 0 0 100%;
 }
 
 .footer-container {
   display: flex;
   flex-flow: row wrap;
+  margin: 10px;
 }
 .footer {
   padding: 10px;
@@ -62,8 +63,7 @@ h3 {
   color: var(--white--color);
   text-align: center;
   flex-shrink: 0;
-  flex: 0 0 98%;
-  margin: 5px;
+  flex: 0 0 100%;
 }
 
 .main_section {
